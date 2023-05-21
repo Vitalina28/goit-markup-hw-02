@@ -6,102 +6,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <a href="">WebStudio</a>
-        <nav>
-            <ul>
-                <li><a href="">Студія</a></li>
-                <li><a href="">Портфоліо</a></li>
-                <li><a href="">Контакти</a></li>
+    <header class="header">
+        <a class="logo link" href="./index.html">Web<span class="part-logo">Studio</span></a>
+        <nav class="navigation">
+            <ul class="nav-link list">
+                <li class="nav-link-item"><a class="nav-link-list link" href="./index.html">Студія</a></li>
+                <li class="nav-link-item"><a class="nav-link-list link" href="">Портфоліо</a></li>
+                <li class="nav-link-item"><a class="nav-link-list link" href="">Контакти</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mainto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="contact-list list">
+            <li class="contact-list-item"><a class="contact-mail link"
+                    href="mainto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="contact-list-item"><a class="contact-number link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
         </ul>
-
     </header>
     <main>
 
         <!--FILTER-->
 
-        <section>
-            <h1>Портфоліо</h1>
-            <ul>
-                <li><a href="">Усі</a></li>
-                <li><a href="">Веб-сайти</a></li>
-                <li><a href="">Додатки</a></li>
-                <li><a href="">Дизайн</a></li>
-                <li><a href="">Маркетинг</a></li>
-            </ul>
-
+        <section class="content section">
+            <h1 class="content-title">Відділи портфоліо</h1>
+            <button class="headline-btn" type="button">Усі</button>
+            <button class="headline-btn" type="button">Веб-сайти</button>
+            <button class="headline-btn" type="button">Додатки</button>
+            <button class="headline-btn" type="button">Дизайн</button>
+            <button class="headline-btn" type="button">Маркетинг</button>
         </section>
 
         <!--Prodjects-->
 
-        <section>
+        <section class="project section">
             <h2>Проекти</h2>
-            <ul>
-                <li>
-                    <img src="./imges/prodject-1.jpg" alt="ноутбук зі зображеням людей на єкрані" width="370"
+            <ul class="project-list list">
+                <li class="project-list-item">
+                    <img class="project-photo" src="./images/prodject-1.jpg" alt="ноутбук зі зображеням людей на єкрані"
+                        width="370" height="294">
+                    <h3 class="project-name">Технокряк</h3>
+                    <p class="project-department">Веб-сайт</p>
+                </li>
+                <li class="project-list-item">
+                    <img class="project-photo" src="./images/prodject-2.jpg" alt="два чоловіка грають в баскетбол"
+                        width="370" height="294">
+                    <h3 class="project-name">Постер New Orlean vs Golden Star</h3>
+                    <p class="project-department">Дизайн</p>
+                </li>
+                <li class="project-list-item">
+                    <img class="project-photo" src="./images/prodject-3.jpg" alt="логотип ресторана" width="370"
                         height="294">
-                    <h3>Технокряк</h3>
-                    <p>Веб-сайт</p>
+                    <h3 class="project-name">Ресторан Seafood</h3>
+                    <p class="project-department">Додаток</p>
                 </li>
-                <li>
-                    <img src="./imges/prodject-2.jpg" alt="два чоловіка грають в баскетбол" width="370" height="294">
-                    <h3>Постер New Orlean vs Golden Star</h3>
-                    <p>Дизайн</p>
-                </li>
-                <li>
-                    <img src="./imges/prodject-3.jpg" alt="логотип ресторана" width="370" height="294">
-                    <h3>Ресторан Seafood</h3>
-                    <p>Додаток</p>
-                </li>
-                <li>
-                    <img src="./imges/prodject-4.jpg" alt="чорны наушники" width="370" height="294">
-                    <h3>Проєкт Prime</h3>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./imges/prodject-5.jpg" alt="дві коробочки колору бежевого і білого" width="370"
+                <li class="project-list-item">
+                    <img class="project-photo" src="./images/prodject-4.jpg" alt="чорны наушники" width="370"
                         height="294">
-                    <h3>Проєкт Boxes</h3>
-                    <p>Додаток</p>
+                    <h3 class="project-name">Проєкт Prime</h3>
+                    <p class="project-department">Маркетинг</p>
                 </li>
-                <li>
-                    <img src="./imges/prodject-6.jpg" alt="комп'ютер" width="370" height="294">
-                    <h3 lang="en">Inspiration has no Borders</h3>
-                    <p>Веб-сайт</p>
+                <li class="project-list-item">
+                    <img class="project-photo" src="./images/prodject-5.jpg"
+                        alt="дві коробочки колору бежевого і білого" width="370" height="294">
+                    <h3 class="project-name">Проєкт Boxes</h3>
+                    <p class="project-department">Додаток</p>
                 </li>
-                <li>
-                    <img src="./imges/prodject-7.jpg" alt="відкритий журнал" width="370" height="294">
-                    <h3>Видання Limited Edition</h3>
-                    <p>Дизайн</p>
+                <li class="project-list-item">
+                    <img class="project-photo" src="./images/prodject-6.jpg" alt="комп'ютер" width="370" height="294">
+                    <h3 class="project-name" lang="en">Inspiration has no Borders</h3>
+                    <p class="project-department">Веб-сайт</p>
                 </li>
-                <li>
-                    <img src="./imges/prodject-8.jpg" alt="лого проекта LAB" width="370" height="294">
-                    <h3>Проєкт LAB</h3>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./imges/prodject-9.jpg" alt="ноутбук зі зображенням на екрані проекту" width="370"
+                <li class="project-list-item">
+                    <img class="project-photo" src="./images/prodject-7.jpg" alt="відкритий журнал" width="370"
                         height="294">
-                    <h3 lang="en">Growing Business</h3>
-                    <p>Додаток</p>
+                    <h3 class="project-name">Видання Limited Edition</h3>
+                    <p class="project-department">Дизайн</p>
+                </li>
+                <li class="project-list-item">
+                    <img class="project-photo" src="./images/prodject-8.jpg" alt="лого проекта LAB" width="370"
+                        height="294">
+                    <h3 class="project-name">Проєкт LAB</h3>
+                    <p class="project-department">Маркетинг</p>
+                </li>
+                <li class="project-list-item">
+                    <img class="project-photo" src="./images/prodject-9.jpg"
+                        alt="ноутбук зі зображенням на екрані проекту" width="370" height="294">
+                    <h3 class="project-name" lang="en">Growing Business</h3>
+                    <p class="project-department">Додаток</p>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
-        <a href="">WebStudio</a>
-        <address>
-            <p>м. Київ, пр-т Лесі Українки, 26</p>
-            <a href="mailto:info@example.com">info@example.com</a>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+    <footer class="footer">
+        <a class="logo link" href="">Web<span class="part-logo">Studio</span></a>
+        <address class="contact-info">
+            <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
+            <a class="info-mail link" href="mailto:info@example.com">info@example.com</a>
+            <a class="info-number link" href="tel:+380961111111">+38 096 111 11 11</a>
         </address>
     </footer>
 
