@@ -7,6 +7,8 @@
     --secondary-text-color-theme-light: rgba(255, 255, 255, 0.6);
     --accent-color: #2196F3;
     --part-logo-color: #000000;
+    --first-decoration-backgraund: #2F303A;
+    --second-decoration-backgroend: #F5F4FA;
 }
 
 body {
@@ -49,12 +51,7 @@ body {
     color: var(--accent-color);
 }
 
-.active {
 
-    color: var(--accent-color);
-
-
-}
 
 .contact-mail,
 .contact-number {
@@ -72,6 +69,10 @@ body {
 
 .contact-number:hover,
 .contact-number:focus {
+    color: var(--accent-color);
+}
+
+.active {
     color: var(--accent-color);
 }
 
@@ -107,7 +108,7 @@ body {
 }
 
 .decoration {
-    background: #2F303A;
+    background: var(--first-decoration-backgraund);
 
 }
 
@@ -144,7 +145,7 @@ body {
 /*-----START EMPLOYEES------*/
 
 .decoration-background {
-    background-color: #F5F4FA;
+    background-color: var(--second-decoration-backgroend);
 }
 
 .employees-title {
@@ -221,7 +222,7 @@ body {
     line-height: 1.62;
     letter-spacing: 0.03em;
     cursor: pointer;
-    background-color: F5F4FA;
+    background-color: var(--second-decoration-backgroend);
 }
 
 .headline-btn:hover,
@@ -248,11 +249,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color-theme-dark);
 }
-
-.project-list {
-    background-color: EEEEEE;
-}
-
 
 
 /*------END PROJECT------*/
