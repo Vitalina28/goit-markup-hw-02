@@ -49,6 +49,13 @@ body {
     color: var(--accent-color);
 }
 
+.active {
+
+    color: var(--accent-color);
+
+
+}
+
 .contact-mail,
 .contact-number {
     font-weight: 500;
@@ -70,13 +77,15 @@ body {
 
 /*---------START HERO---------*/
 
+
 .hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    /*color: var(--primare-text-color-theme-light);*/
+    text-align: center;
+    color: var(--primare-text-color-theme-light);
 }
 
 .hero-button {
@@ -85,12 +94,25 @@ body {
     line-height: 1.88;
     letter-spacing: 0.06em;
     text-align: center;
-    /*color: var(--primare-text-color-theme-light);*/
+    width: 216px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    color: var(--primare-text-color-theme-light);
 }
 
 .hero-button:hover,
 .hero-button:focus {
     background-color: var(--accent-color);
+}
+
+.decoration {
+    background: #2F303A;
+
+}
+
+.position {
+    text-align: center;
 }
 
 /*--------END HERO-----------*/
@@ -121,6 +143,10 @@ body {
 /*------END ADVANTAGES-------*/
 /*-----START EMPLOYEES------*/
 
+.decoration-background {
+    background-color: #F5F4FA;
+}
+
 .employees-title {
     font-weight: 700;
     font-size: 36px;
@@ -131,13 +157,13 @@ body {
 .employees-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
 .employees-position {
     font-size: 16px;
-    line-height: 1.19px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color-theme-dark);
 }
@@ -151,7 +177,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    /*color: var(--primare-text-color-theme-light);*/
+    color: var(--primare-text-color-theme-light);
 }
 
 .info-mail {
@@ -160,8 +186,14 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    /*color: var(--secondary-text-color-theme-light);*/
+    color: var(--secondary-text-color-theme-light);
 }
+
+.info-mail:hover,
+.info-mail:focus {
+    color: var(--primare-text-color-theme-light);
+}
+
 
 .info-number {
     font-style: normal;
@@ -169,7 +201,12 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    /* color: var(--secondary-text-color-theme-light); */
+    color: var(--secondary-text-color-theme-light);
+}
+
+.info-number:hover,
+.info-number:focus {
+    color: var(--primare-text-color-theme-light);
 }
 
 /*---------END FOOTER---------*/
@@ -184,10 +221,16 @@ body {
     line-height: 1.62;
     letter-spacing: 0.03em;
     cursor: pointer;
+    background-color: F5F4FA;
 }
 
 .headline-btn:hover,
 .headline-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--primare-text-color-theme-light);
+}
+
+.active-btn {
     background-color: var(--accent-color);
     color: var(--primare-text-color-theme-light);
 }
@@ -205,5 +248,11 @@ body {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color-theme-dark);
 }
+
+.project-list {
+    background-color: EEEEEE;
+}
+
+
 
 /*------END PROJECT------*/

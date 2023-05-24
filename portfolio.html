@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <<link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -17,7 +18,7 @@
         <nav class="navigation">
             <ul class="nav-link list">
                 <li class="nav-link-item"><a class="nav-link-list link" href="./index.html">Студія</a></li>
-                <li class="nav-link-item"><a class="nav-link-list link" href="">Портфоліо</a></li>
+                <li class="nav-link-item"><a class="nav-link-list active link" href="">Портфоліо</a></li>
                 <li class="nav-link-item"><a class="nav-link-list link" href="">Контакти</a></li>
             </ul>
         </nav>
@@ -30,20 +31,27 @@
     </header>
     <main>
 
-        <!--FILTER-->
-
-        <section class="content section">
-            <h1 class="content-title">Відділи портфоліо</h1>
-            <button class="headline-btn" type="button">Усі</button>
-            <button class="headline-btn" type="button">Веб-сайти</button>
-            <button class="headline-btn" type="button">Додатки</button>
-            <button class="headline-btn" type="button">Дизайн</button>
-            <button class="headline-btn" type="button">Маркетинг</button>
-        </section>
-
         <!--Prodjects-->
 
-        <section class="project section">
+        <section class=" project section">
+            <h1 class="project-title">Відділи портфоліо</h1>
+            <ul class="project-list list">
+                <li class="content-list-item">
+                    <button class="headline-btn active-btn" type="button">Усі</button>
+                </li>
+                <li class="project-list-item">
+                    <button class="headline-btn" type="button">Веб-сайти</button>
+                </li>
+                <li class="project-list-item">
+                    <button class="headline-btn" type="button">Додатки</button>
+                </li>
+                <li class="project-list-item">
+                    <button class="headline-btn" type="button">Дизайн</button>
+                </li>
+                <li class="project-list-item">
+                    <button class="headline-btn" type="button">Маркетинг</button>
+                </li>
+            </ul>
             <h2>Проекти</h2>
             <ul class="project-list list">
                 <li class="project-list-item">
@@ -103,12 +111,20 @@
         </section>
     </main>
     <footer class="footer">
-        <a class="logo link" href="">Web<span class="part-logo">Studio</span></a>
-        <address class="contact-info">
-            <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
-            <a class="info-mail link" href="mailto:info@example.com">info@example.com</a>
-            <a class="info-number link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </address>
+        <div class="decoration">
+            <a class="logo link" href="">Web<span class="part-logo">Studio</span></a>
+            <address class="contact-info">
+                <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
+                <ul class="list">
+                    <li class="info">
+                        <a class="info-mail link" href="mailto:info@devstudio.com ">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a class="info-number link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </footer>
 
 

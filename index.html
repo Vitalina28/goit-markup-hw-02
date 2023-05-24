@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -16,8 +17,9 @@
         <a class=" logo link" href="">Web<span class="part-logo">Studio</span></a>
         <nav class="navigation">
             <ul class="nav-link list">
-                <li class="nav-link-item"><a class="nav-link-list link" href="./index.html">Студія</a></li>
-                <li class="nav-link-item"><a class="nav-link-list link" href="./portfolio.html">Портфоліо</a></li>
+                <li class="nav-link-item"><a class="nav-link-list active link" href="./index.html">Студія</a></li>
+                <li class="nav-link-item"><a class="nav-link-list link" href="./portfolio.html">Портфоліо</a>
+                </li>
                 <li class="nav-link-item"><a class="nav-link-list link" href="">Контакти</a></li>
             </ul>
         </nav>
@@ -33,8 +35,11 @@
         <!--HERO-->
 
         <section class="hero">
-            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="hero-button" type="button">Замовити послугу</button>
+            <div class="decoration position">
+                <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+                <button class="hero-button active-btn" type="button">Замовити послугу</button>
+            </div>
+
         </section>
 
         <!--ADVANTAGES-->
@@ -80,41 +85,52 @@
         <!--EMPLOYEES-->
 
         <section class="employees section">
-            <h2 class="employees-title title">Наша команда</h2>
-            <ul class="employees-list list">
-                <li class="employees-card">
-                    <img class="employees-photo" src="./images/command-1.jpg" alt="чоловік в окулярах" width="270"
-                        height="260">
-                    <h3 class="employees-name">Ігор Дем'яненко</h3>
-                    <p class="employees-position" lang="en">Product Designer</p>
-                </li>
-                <li class="employees-card">
-                    <img class="employees-photo" src="./images/command-2.jpg" alt="жінка в окулярах" width="270"
-                        height="260">
-                    <h3 class="employees-name">Ольга Рєпіна</h3>
-                    <p class="employees-position" lang="en">Frontend Developer</p>
-                </li>
-                <li class="employees-card">
-                    <img class="employees-photo" src="./images/command-3.jpg" alt="чоловік" width="270" height="260">
-                    <h3 class="employees-name">Микола Тарасов</h3>
-                    <p class="employees-position" lang="en">Marketing</p>
-                </li>
-                <li class="employees-card">
-                    <img class="employees-photo" src="./images/command-4.jpg" alt="чоловік в окулярах" width="270"
-                        height="260">
-                    <h3 class="employees-name">Михайло Єрмаков</h3>
-                    <p class="employees-position" lang="en">UI Designer</p>
-                </li>
-            </ul>
+            <div class=" decoration-background">
+                <h2 class="employees-title position title">Наша команда</h2>
+                <ul class="employees-list list">
+                    <li class="employees-card">
+                        <img class="employees-photo" src="./images/command-1.jpg" alt="чоловік в окулярах" width="270"
+                            height="260">
+                        <h3 class="employees-name position">Ігор Дем'яненко</h3>
+                        <p class="employees-position position" lang="en">Product Designer</p>
+                    </li>
+                    <li class="employees-card">
+                        <img class="employees-photo" src="./images/command-2.jpg" alt="жінка в окулярах" width="270"
+                            height="260">
+                        <h3 class="employees-name position">Ольга Рєпіна</h3>
+                        <p class="employees-position position" lang="en">Frontend Developer</p>
+                    </li>
+                    <li class="employees-card">
+                        <img class="employees-photo" src="./images/command-3.jpg" alt="чоловік" width="270"
+                            height="260">
+                        <h3 class="employees-name position">Микола Тарасов</h3>
+                        <p class="employees-position position" lang="en">Marketing</p>
+                    </li>
+                    <li class="employees-card">
+                        <img class="employees-photo" src="./images/command-4.jpg" alt="чоловік в окулярах" width="270"
+                            height="260">
+                        <h3 class="employees-name position">Михайло Єрмаков</h3>
+                        <p class="employees-position position" lang="en">UI Designer</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
-        <a class="logo link" href="">Web<span class="part-logo">Studio</span></a>
-        <address class="contact-info">
-            <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
-            <a class="info-mail link" href="mailto:info@devstudio.com ">info@devstudio.com</a>
-            <a class="info-number link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </address>
+        <div class="decoration">
+            <a class="logo link" href="">Web<span class="part-logo">Studio</span></a>
+            <address class="contact-info">
+                <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
+                <ul class="list">
+                    <li class="info">
+                        <a class="info-mail link" href="mailto:info@devstudio.com ">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a class="info-number link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </footer>
 
 </body>
