@@ -11,10 +11,18 @@
     --second-decoration-backgroend: #F5F4FA;
 }
 
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 body {
     font-family: var(--primare-font-family);
     color: var(--primare-text-color-theme-dark);
 }
+
 
 .link {
     text-decoration: none;
@@ -38,6 +46,10 @@ body {
     color: var(--part-logo-color);
 }
 
+.nav-link-item {
+    display: inline;
+}
+
 .nav-link-list {
     font-weight: 500;
     font-size: 14px;
@@ -51,7 +63,21 @@ body {
     color: var(--accent-color);
 }
 
+.hero-title {
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+}
 
+.hero-button {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+}
 
 .contact-mail,
 .contact-number {
@@ -109,7 +135,6 @@ body {
 
 .decoration {
     background: var(--first-decoration-backgraund);
-
 }
 
 .position {
@@ -215,6 +240,11 @@ body {
 /*---------PORTFOLIO----------*/
 
 /*------START PROJECT------*/
+
+.project-list-item {
+    display: inline;
+}
+
 
 .headline-btn {
     font-weight: 500;
