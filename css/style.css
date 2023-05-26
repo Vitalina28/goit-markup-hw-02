@@ -11,18 +11,10 @@
     --second-decoration-backgroend: #F5F4FA;
 }
 
-
-.container {
-    width: 1170px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 body {
     font-family: var(--primare-font-family);
     color: var(--primare-text-color-theme-dark);
 }
-
 
 .link {
     text-decoration: none;
@@ -46,10 +38,6 @@ body {
     color: var(--part-logo-color);
 }
 
-.nav-link-item {
-    display: inline;
-}
-
 .nav-link-list {
     font-weight: 500;
     font-size: 14px;
@@ -61,22 +49,6 @@ body {
 .nav-link-list:hover,
 .nav-link-list:focus {
     color: var(--accent-color);
-}
-
-.hero-title {
-    position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
-}
-
-.hero-button {
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
 }
 
 .contact-mail,
@@ -104,7 +76,6 @@ body {
 
 /*---------START HERO---------*/
 
-
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -121,8 +92,6 @@ body {
     line-height: 1.88;
     letter-spacing: 0.06em;
     text-align: center;
-    width: 216px;
-    height: 50px;
     border-radius: 4px;
     border: 1px solid transparent;
     color: var(--primare-text-color-theme-light);
@@ -133,8 +102,9 @@ body {
     background-color: var(--accent-color);
 }
 
-.decoration {
-    background: var(--first-decoration-backgraund);
+.active-btn {
+    background-color: var(--accent-color);
+    color: var(--primare-text-color-theme-light);
 }
 
 .position {
@@ -150,6 +120,10 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.decoration {
+    background: var(--first-decoration-backgraund);
 }
 
 .advantages-desc {
@@ -169,15 +143,12 @@ body {
 /*------END ADVANTAGES-------*/
 /*-----START EMPLOYEES------*/
 
-.decoration-background {
-    background-color: var(--second-decoration-backgroend);
-}
-
 .employees-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    background-color: var(--second-decoration-backgroend);
 }
 
 .employees-name {
@@ -185,6 +156,11 @@ body {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    color: var(--primare-text-color-theme-dark);
+}
+
+.decoration-background {
+    background-color: var(--second-decoration-backgroend);
 }
 
 .employees-position {
@@ -196,6 +172,10 @@ body {
 
 /*-----END EMPLOYEES-----*/
 /*-----START FOOTER------*/
+
+.second-part {
+    color: var(--primare-text-color-theme-light);
+}
 
 .address {
     font-style: normal;
@@ -220,7 +200,6 @@ body {
     color: var(--primare-text-color-theme-light);
 }
 
-
 .info-number {
     font-style: normal;
     font-weight: 400;
@@ -241,27 +220,16 @@ body {
 
 /*------START PROJECT------*/
 
-.project-list-item {
-    display: inline;
-}
-
-
 .headline-btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
     cursor: pointer;
-    background-color: var(--second-decoration-backgroend);
 }
 
 .headline-btn:hover,
 .headline-btn:focus {
-    background-color: var(--accent-color);
-    color: var(--primare-text-color-theme-light);
-}
-
-.active-btn {
     background-color: var(--accent-color);
     color: var(--primare-text-color-theme-light);
 }
@@ -271,6 +239,7 @@ body {
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
+    color: var(--primare-text-color-theme-dark);
 }
 
 .project-department {
@@ -279,6 +248,3 @@ body {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color-theme-dark);
 }
-
-
-/*------END PROJECT------*/
