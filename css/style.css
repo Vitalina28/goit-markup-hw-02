@@ -57,7 +57,7 @@ body {
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: 0.02em;
-    color: var(--primare-text-color-theme-dark);
+    color: var(--secondary-text-color-theme-dark);
 }
 
 .contact-mail:hover,
@@ -100,11 +100,6 @@ body {
 .hero-button:hover,
 .hero-button:focus {
     background-color: var(--accent-color);
-}
-
-.active-btn {
-    background-color: var(--accent-color);
-    color: var(--primare-text-color-theme-light);
 }
 
 .position {
@@ -226,10 +221,17 @@ body {
     line-height: 1.62;
     letter-spacing: 0.03em;
     cursor: pointer;
+    color: var(--primare-text-color-theme-dark);
+    background-color: var(--second-decoration-backgroend);
 }
 
 .headline-btn:hover,
 .headline-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--primare-text-color-theme-light);
+}
+
+.active-btn {
     background-color: var(--accent-color);
     color: var(--primare-text-color-theme-light);
 }
